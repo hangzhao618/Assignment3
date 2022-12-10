@@ -1,0 +1,34 @@
+.container {
+  width: 800px;
+  display: grid;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.question {
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+}
+
+table {
+  width: 750px;
+  border-collapse: collapse;
+}
+thead {
+  background-color: lightgray;
+}
+
+#list {
+  display: flex;
+  justify-content: space-around;
+}
+
+ol,
+ul {
+  text-align: left;
+}
